@@ -1,0 +1,83 @@
+{
+  "regions": {
+    "north": {
+      "name": "North",
+      "nameHebrew": "צפון",
+      "cities": [
+        { "name": "Haifa", "nameHebrew": "חיפה", "population": 285316 },
+        { "name": "Nazareth", "nameHebrew": "נצרת", "population": 77445 },
+        { "name": "Acre", "nameHebrew": "עכו", "population": 48930 },
+        { "name": "Nahariya", "nameHebrew": "נהריה", "population": 58750 },
+        { "name": "Tiberias", "nameHebrew": "טבריה", "population": 44000 },
+        { "name": "Karmiel", "nameHebrew": "כרמיאל", "population": 46200 },
+        { "name": "Afula", "nameHebrew": "עפולה", "population": 50000 },
+        { "name": "Kiryat Shmona", "nameHebrew": "קריית שמונה", "population": 23100 }
+      ]
+    },
+    "central": {
+      "name": "Central",
+      "nameHebrew": "מרכז",
+      "cities": [
+        { "name": "Tel Aviv", "nameHebrew": "תל אביב", "population": 460613 },
+        { "name": "Ramat Gan", "nameHebrew": "רמת גן", "population": 163480 },
+        { "name": "Petah Tikva", "nameHebrew": "פתח תקווה", "population": 247956 },
+        { "name": "Rishon LeZion", "nameHebrew": "ראשון לציון", "population": 254384 },
+        { "name": "Holon", "nameHebrew": "חולון", "population": 196282 },
+        { "name": "Netanya", "nameHebrew": "נתניה", "population": 221353 },
+        { "name": "Bnei Brak", "nameHebrew": "בני ברק", "population": 204639 },
+        { "name": "Herzliya", "nameHebrew": "הרצליה", "population": 97470 },
+        { "name": "Kfar Saba", "nameHebrew": "כפר סבא", "population": 101432 },
+        { "name": "Ra'anana", "nameHebrew": "רעננה", "population": 74000 },
+        { "name": "Rehovot", "nameHebrew": "רחובות", "population": 143904 },
+        { "name": "Bat Yam", "nameHebrew": "בת ים", "population": 129012 }
+      ]
+    },
+    "jerusalem": {
+      "name": "Jerusalem",
+      "nameHebrew": "ירושלים",
+      "cities": [
+        { "name": "Jerusalem", "nameHebrew": "ירושלים", "population": 936425 },
+        { "name": "Beit Shemesh", "nameHebrew": "בית שמש", "population": 124381 },
+        { "name": "Ma'ale Adumim", "nameHebrew": "מעלה אדומים", "population": 38193 }
+      ]
+    },
+    "south": {
+      "name": "South",
+      "nameHebrew": "דרום",
+      "cities": [
+        { "name": "Beer Sheva", "nameHebrew": "באר שבע", "population": 209687 },
+        { "name": "Ashdod", "nameHebrew": "אשדוד", "population": 225939 },
+        { "name": "Ashkelon", "nameHebrew": "אשקלון", "population": 144073 },
+        { "name": "Eilat", "nameHebrew": "אילת", "population": 52299 },
+        { "name": "Dimona", "nameHebrew": "דימונה", "population": 36511 },
+        { "name": "Kiryat Gat", "nameHebrew": "קריית גת", "population": 57869 },
+        { "name": "Sderot", "nameHebrew": "שדרות", "population": 27635 },
+        { "name": "Ofakim", "nameHebrew": "אופקים", "population": 30185 }
+      ]
+    }
+  },
+  "businessTypes": {
+    "food": [
+      { "type": "restaurant", "hebrew": "מסעדה", "searchTerms": ["restaurant", "מסעדה"] },
+      { "type": "cafe", "hebrew": "בית קפה", "searchTerms": ["cafe", "coffee shop", "בית קפה"] },
+      { "type": "bar", "hebrew": "בר", "searchTerms": ["bar", "pub", "בר"] },
+      { "type": "bakery", "hebrew": "מאפייה", "searchTerms": ["bakery", "מאפייה"] },
+      { "type": "pizza", "hebrew": "פיצה", "searchTerms": ["pizza", "pizzeria", "פיצה"] },
+      { "type": "falafel", "hebrew": "פלאפל", "searchTerms": ["falafel", "פלאפל"] }
+    ],
+    "retail": [
+      { "type": "clothing", "hebrew": "ביגוד", "searchTerms": ["clothing store", "fashion", "ביגוד"] },
+      { "type": "grocery", "hebrew": "מכולת", "searchTerms": ["grocery store", "supermarket", "מכולת", "סופרמרקט"] },
+      { "type": "pharmacy", "hebrew": "בית מרקחת", "searchTerms": ["pharmacy", "drugstore", "בית מרקחת"] },
+      { "type": "bookstore", "hebrew": "חנות ספרים", "searchTerms": ["bookstore", "חנות ספרים"] },
+      { "type": "jewelry", "hebrew": "תכשיטים", "searchTerms": ["jewelry store", "תכשיטים"] }
+    ],
+    "services": [
+      { "type": "salon", "hebrew": "מספרה", "searchTerms": ["hair salon", "beauty salon", "מספרה", "סלון יופי"] },
+      { "type": "garage", "hebrew": "מוסך", "searchTerms": ["auto repair", "garage", "מוסך"] },
+      { "type": "gym", "hebrew": "חדר כושר", "searchTerms": ["gym", "fitness center", "חדר כושר"] },
+      { "type": "laundry", "hebrew": "מכבסה", "searchTerms": ["laundry", "dry cleaning", "מכבסה"] },
+      { "type": "dentist", "hebrew": "רופא שיניים", "searchTerms": ["dentist", "dental clinic", "רופא שיניים"] }
+    ]
+  }
+}

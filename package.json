@@ -1,0 +1,76 @@
+{
+  "name": "google-maps-business-scraper",
+  "version": "1.0.0",
+  "description": "A powerful web scraping tool designed to collect business information from Google Maps, specifically targeting Israeli businesses that lack digital presence (websites, social media). Built with TypeScript, Playwright, and designed for scalability.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "scrape": "ts-node src/cli/index.ts scrape",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/GoogleMapsBusinessScraper.git"
+  },
+  "keywords": [
+    "google-maps",
+    "web-scraping",
+    "playwright",
+    "typescript",
+    "israel",
+    "business-data"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/GoogleMapsBusinessScraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/GoogleMapsBusinessScraper#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.4.2",
+    "@types/uuid": "^10.0.0",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "csv-parse": "^6.0.0",
+    "csv-writer": "^1.6.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.2.0",
+    "joi": "^17.13.3",
+    "lodash": "^4.17.21",
+    "ora": "^8.2.0",
+    "p-queue": "^8.1.0",
+    "p-retry": "^6.2.1",
+    "playwright": "^1.54.1",
+    "playwright-extra": "^4.3.6",
+    "proxy-chain": "^2.5.9",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.1.601",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "workerpool": "^9.3.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.0.14",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
