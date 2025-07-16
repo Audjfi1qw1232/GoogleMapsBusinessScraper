@@ -37,19 +37,13 @@ if (!apiKey) {
   process.exit(1);
 }
 
-// Business types to search for
+// Business types to search for (reduced for demo)
 const businessTypes = [
   'restaurant',
-  'store',
   'beauty_salon',
-  'hair_care',
-  'gym',
-  'doctor',
   'dentist',
   'real_estate_agency',
   'car_repair',
-  'plumber',
-  'electrician',
 ];
 
 async function searchBusinessesInCity(cityName: string, businessType: string): Promise<Business[]> {
@@ -156,8 +150,8 @@ async function main() {
     });
   });
 
-  // Limit to first 5 cities for MVP
-  const targetCities = cities.slice(0, 5);
+  // Limit to first 2 cities for quick demo
+  const targetCities = cities.slice(0, 2);
   
   console.log(`Searching in cities: ${targetCities.join(', ')}`);
   console.log(`Business types: ${businessTypes.join(', ')}`);
